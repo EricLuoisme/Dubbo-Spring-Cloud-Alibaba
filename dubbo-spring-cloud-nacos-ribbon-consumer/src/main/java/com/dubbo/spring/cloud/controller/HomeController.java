@@ -17,7 +17,7 @@ public class HomeController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @GetMapping(value = "/", produces = "applicaiton/json")
+    @GetMapping(value = "/", produces = "application/json")
     public String home() {
         log.info("----- Consumer Begin to call the Provider -------");
         String result = restTemplate.getForObject(PROVIDER_ADDR + "hello/" + RIBBON_CONSUMER_NAME, String.class);

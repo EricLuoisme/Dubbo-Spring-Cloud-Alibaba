@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient("ali-nacos-provider")
 public interface HelloService {
-    @RequestMapping(path = "hello/{str}")
-    String hello(@RequestParam String name);
+    @RequestMapping(path = "hello/{name}")
+    String hello(@RequestParam("name") String name);
 }

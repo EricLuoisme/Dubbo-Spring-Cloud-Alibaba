@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class HelloController {
 
-    @GetMapping(value = "/hello/{str}", produces = "application/json")
-    public String hello(@PathVariable String name) {
+    @GetMapping(value = "/hello/{name}", produces = "application/json")
+    public String hello(@PathVariable("name") String name) {
         log.info("---------- Main Provider Receive Msg --------");
         return "Hello Consumer: " + name + ", Provider receive your msg";
     }

@@ -12,8 +12,6 @@ public class Home2Controller {
 
     private static final String FEIGN_CONSUMER_NAME = "Feignia";
 
-    private static final String PROVIDER_ADDR = "http://ali-nacos-provider/";
-
     @Autowired
     private HelloService helloService;
 
