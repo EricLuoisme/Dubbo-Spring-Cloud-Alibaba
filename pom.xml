@@ -7,7 +7,6 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.12.RELEASE</version>
     </parent>
 
     <groupId>org.example</groupId>
@@ -20,6 +19,7 @@
         <module>spring-cloud-nacos-ribbon-consumer-9100</module>
         <module>spring-cloud-nacos-feign-consumer-9200</module>
         <module>nacos-demo-api</module>
+        <module>nacos-demo-dubbo-provider</module>
     </modules>
 
     <properties>
@@ -29,13 +29,13 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Hoxton.SR12</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>org.springframework.cloud</groupId>-->
+<!--                <artifactId>spring-cloud-dependencies</artifactId>-->
+<!--                <version>Hoxton.SR12</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
 <!--            <dependency>-->
 <!--                <groupId>com.alibaba.cloud</groupId>-->
 <!--                <artifactId>spring-cloud-alibaba-dependencies</artifactId>-->

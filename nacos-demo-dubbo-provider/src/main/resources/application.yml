@@ -1,0 +1,20 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: ali-nacos-dubbo-service-provider
+  profiles:
+    active: dev
+
+dubbo:
+  registry:
+    address: nacos://127.0.0.1:8848
+  application:
+    name: ali-nacos-dubbo-service-provider
+  scan:
+    basePackages: com.dubbo.spring.cloud
+  protocol:
+    name: dubbo
+    port: -1
+
