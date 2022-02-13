@@ -19,6 +19,7 @@
         <module>spring-cloud-nacos-provider-9000</module>
         <module>spring-cloud-nacos-ribbon-consumer-9100</module>
         <module>spring-cloud-nacos-feign-consumer-9200</module>
+        <module>nacos-demo-api</module>
     </modules>
 
     <properties>
