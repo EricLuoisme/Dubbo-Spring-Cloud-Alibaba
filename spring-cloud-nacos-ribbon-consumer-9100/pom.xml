@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dubbo-spring-cloud-nacos-ribbon-consumer</artifactId>
+    <artifactId>spring-cloud-nacos-ribbon-consumer-9100</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

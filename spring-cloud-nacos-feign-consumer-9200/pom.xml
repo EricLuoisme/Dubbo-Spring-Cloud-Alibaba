@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dubbo-spring-cloud-nacos-feign-consumer</artifactId>
+    <artifactId>spring-cloud-nacos-feign-consumer-9200</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

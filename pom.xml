@@ -16,9 +16,9 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>dubbo-spring-cloud-nacos-provider</module>
-        <module>dubbo-spring-cloud-nacos-ribbon-consumer</module>
-        <module>dubbo-spring-cloud-nacos-feign-consumer</module>
+        <module>spring-cloud-nacos-provider-9000</module>
+        <module>spring-cloud-nacos-ribbon-consumer-9100</module>
+        <module>spring-cloud-nacos-feign-consumer-9200</module>
     </modules>
 
     <properties>
